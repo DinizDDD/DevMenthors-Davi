@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projetinho</title>
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/signup.css">
 </head>
 <body>
     <nav>
@@ -15,32 +16,45 @@
             <a class="nav-link" href=""><h2>Home</h2></a>
             <a class="nav-link" href=""><h2>Sobre</h2></a>
             <a class="nav-link" href=""><h2>Contato</h2></a>
-            <a class="nav-link" href=""><h2>Cadastrar</h2></a>
+            <a class="nav-link" href="login.html"><h2>Login</h2></a>
         </div>
     </nav>
 
     <div class="body">
-        <div class="login">
-            <h1>Bem Vindo </h1>
-            <h1> Ao meu primeiro Projeto</h1>
+        <div class="signup">
+            <h1>Faça seu Cadastro</h1>
             <form action="">
                 <div class="input">
-                    <label for="email">Email</label><br>
-                    <input type="email" name="email" id="email">
+                    <label for="nome">Nome</label><br>
+                    <input type="nome" name="nome" id="nome">
+                </div>
+
+                <br>    
+
+                <div class="input">
+                    <label for="password">CPF</label><br>
+                    <input type="cpf" name="cpf" id="cpf">
                 </div>
 
                 <br>
 
                 <div class="input">
+                    <label for="password">E-mail</label><br>
+                    <input type="email" name="email" id="email">
+                </div>
+                
+                <br>
+
+                <div class="input"> 
                     <label for="password">Senha</label><br>
                     <input type="password" name="password" id="password">
                 </div>
 
-                <button>Login</button>
+                <button>Cadastre-se</button>
             </form>
         </div>
         <div class="login-img">  
-            <img src="imgs/login.svg" alt=""> 
+            <img src="imgs/register.png " alt=""> 
         </div>
     </div>
 
