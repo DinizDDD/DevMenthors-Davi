@@ -17,7 +17,7 @@ nav{
 
     .nav-right{
         /* Poderia fazer com margin-left: auto; mas por algum motivo não funcionou */
-        margin-left: 1600px;
+        margin-left: 1340px;
         display: flex;
         
         h2{
