@@ -1,0 +1,41 @@
+.home{
+    display: flex;
+
+    .playlists{
+        width: 35%;
+        height: 730px;
+        padding: 20px;
+        background-color: #283146;
+        border-radius: 0 10px 10px 0;
+    
+        h1{
+            font-size: 35px;
+            font-family: "Poppins", sans-serif; 
+            color: #FEFEFE;
+        }
+    }
+
+    .menu{
+        width: 75%;
+        height: 710px;
+        padding: 30px;
+        margin-left: 25px;
+        background-color: #283146;
+        border-radius: 10px 0 0 10px;
+
+        h1{
+            margin-bottom: 0;
+            font-size: 35px;
+            font-family: "Poppins", sans-serif; 
+            color: #FEFEFE;
+        }
+
+        h3{
+            margin-top: 0;
+            font-size: 15px;
+            font-family: "Poppins", sans-serif; 
+            color: #191E29;
+        }
+    }
+}
+
